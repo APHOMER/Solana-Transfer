@@ -1,0 +1,49 @@
+
+
+ anchor keys list
+ solana-keygen grind --starts-with Aut:1
+
+
+cd ~ ===> solana-test-validator
+
+
+wallet = "~/.config/solana/id.json" // from Anchor.toml
+
+
+
+
+aphomer@APHOMER:/mnt/c/Users/APHOMER/Desktop/SOLANA/sol-transfer$ anc
+hor deploy
+Deploying cluster: http://127.0.0.1:8899
+Upgrade authority: AutetqnDTNbatRRAnXQiDTwXRWFL2CgzhisT2zHKjE3t.json 
+Deploying program "sol_transfer"...
+Program path: /mnt/c/Users/APHOMER/Desktop/SOLANA/sol-transfer/target/deploy/sol_transfer.so...
+==============================================================================
+Recover the intermediate account's ephemeral keypair file with       
+`solana-keygen recover` and the following 12-word seed phrase:       
+==============================================================================
+still alert erode dolphin hobby rich ordinary maid stick hidden virus decorate
+==============================================================================
+To resume a deploy, pass the recovered keypair as the
+[BUFFER_SIGNER] to `solana program deploy` or `solana program write-buffer'.
+Or to recover the account's lamports, pass it as the
+[BUFFER_ACCOUNT_ADDRESS] argument to `solana program close`.
+==============================================================================
+Error: Account AutetqnDTNbatRRAnXQiDTwXRWFL2CgzhisT2zHKjE3t has insufficient funds for spend (1.42677912 SOL) + fee (0.001035 SOL)        
+There was a problem deploying: Output { status: ExitStatus(unix_wait_status(256)), stdout: "", stderr: "" }.
+
+
+anchor test
+anchor test --skip-local-validator
+
+
+
+Recover the intermediate account's ephemeral keypair file with       
+`solana-keygen recover` and the following 12-word seed phrase:       
+=============================================================================
+audit hold plastic rate supply game ribbon cactus parade material humor blind
+
+
+
+
+
